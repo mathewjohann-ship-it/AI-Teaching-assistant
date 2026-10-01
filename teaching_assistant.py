@@ -17,7 +17,7 @@ def looks_incomplete(text: str) -> bool:
 def complete_answer(question: str, max_rounds: int = 2) -> str:
     base_prompt = (
         "Answer clearly in numbered points. "
-        "Do nut cut sentences. Finish each point fully.\n\n"
+        "Do not cut sentences. Finish each point fully.\n\n"
         f"Question: {question}"
     )
 
